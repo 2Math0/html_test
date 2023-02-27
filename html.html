@@ -1,0 +1,868 @@
+<html lang="ar" dir="rtl" class=" video supports csstransitions csstransforms3d"><head>
+<title>نظام حجز الوحدات السكنية و الاراضى</title>
+<meta name="_csrf" content="bc7a2903-3f09-46d5-9797-2c00b73d7987">
+
+<meta charset="UTF-8">
+<title>نظام حجز الوحدات السكنية</title>
+
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/O4xzMiFqEvA4YhWjk5t8Xuas/recaptcha__ar.js" crossorigin="anonymous" integrity="sha384-Pjn0wKurnrZGdP0uTq+adevz2Mdye4tbfcDY6mgrL5Yh18QqtZGTCGXFrQeUrWzp"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="/cdn-cgi/apps/head/qrkq7TZDviJ3pnB7qqZ2P_CbP2w.js"></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-130897495-1"></script><link rel="apple-touch-icon" sizes="180x180" href="/hdb/static/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/hdb/static/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/hdb/static/favicon/favicon-16x16.png">
+<link rel="manifest" href="/hdb/static/favicon/manifest.json">
+<link rel="mask-icon" href="/hdb/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/hdb/static/favicon/favicon.ico">
+<meta name="msapplication-config" content="/hdb/static/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+<!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+<link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+
+
+
+
+<link href="/hdb/static/assets/css/essentials.min.css" rel="stylesheet" type="text/css">
+<link href="/hdb/static/assets/css/layout.min.css" rel="stylesheet" type="text/css">
+<link href="/hdb/static/assets/css/color_scheme/green.min.css" rel="stylesheet" type="text/css" id="color_scheme">
+
+<link href="/hdb/static/assets/plugins/bootstrap/RTL/bootstrap-rtl-merged.min.css" rel="stylesheet" type="text/css">
+<link href="/hdb/static/assets/css/layout-RTL.min.css" rel="stylesheet" type="text/css">
+
+<link href="/hdb/static/assets/css/header-1.css" rel="stylesheet" type="text/css">
+<link href="/hdb/static/css/custom.css" rel="stylesheet" type="text/css">
+<script src="https://www.google.com/recaptcha/api.js?hl=ar" type="text/javascript"></script><style>
+
+    .errorMessage {
+        color: red;
+    }
+</style><script type="text/javascript">
+
+
+    function checkNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        }
+        return true;
+    }
+
+
+    function recaptchaCallback1() {
+        $('#subButton').removeAttr('disabled');
+    }
+</script></head>
+
+
+
+
+
+
+<body class="smoothscroll enable-animation" dir="rtl" style="padding-top: 149.475px;">
+<div>
+<div id="wrapper">
+<div id="header" class="navbar-toggleable-md sticky clearfix fixed">
+
+<header id="topNav">
+<div class="container">
+
+<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+<i class="fa fa-bars"></i>
+</button>
+
+<ul class="float-right nav nav-pills nav-second-main">
+</ul>
+
+<div class="row">
+<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+
+<a class="logo float-left " href="http://web.hdb-egy.com/index.php/ar">
+<img class="img-fluid" src="/hdb/static/images/logo.png" alt=""> 
+<img class="img-fluid" src="/hdb/static/images/logo.png" alt=""> 
+</a>
+</div>
+<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 text-center" style="padding-top: 2%;">
+
+</div>
+<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+<a class="logo float-right" href="http://www.newcities.gov.eg/housing-units/default.aspx">
+<img class="img-fluid" src="/hdb/static/images/UrbanCommunitiesAuthority.png" alt="" style="float: left;"> 
+<img class="img-fluid" src="/hdb/static/images/UrbanCommunitiesAuthority.png" alt="" style="float: left;"> 
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+</div>
+<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 text-center" style="padding-top: 2%;">
+</div>
+
+ <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+<span id="clock" class="float-left">الخميس 23 فبراير  2023   -   10:01:20 ص</span>
+</div>
+</div>
+
+<div class="navbar-collapse collapse float-left nav-main-collapse submenu-dark">
+<nav class="nav-main">
+<ul id="topMain" class="nav nav-pills nav-main">
+<li class="active">
+
+<a class="fs-15" href="/hdb/">الرئيسية</a>
+</li>
+<li class="active">
+<a class="fs-15" href="/hdb/#projects">المشاريع</a>
+</li>
+<li class="active">
+<a class="fs-15" href="/hdb/reserve/inquiry">الاستعلام</a>
+</li>
+<li class="active">
+<a class="fs-15" href="/hdb/refund">استرداد مقدم الدفع</a>
+</li>
+<li class="active">
+<a href="/hdb/faq" class="fs-15">الأسئلة الشائعة</a>
+</li>
+<li class="active">
+<a href="/hdb/about" class="fs-15">عن الموقع</a>
+</li>
+
+
+<li class="active">
+<a href="/hdb/logout" class="fs-15">تسجيل الخروج</a>
+</li>
+</ul>
+</nav>
+</div>
+
+</div>
+</header>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+        /*Get current date and time with arabic format -yahia.abohashim */
+
+        var pool="";
+        var daysArray=new Array("الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت");
+        var monthsArray=new Array("يناير","فبراير","مارس","ابريل","مايو","يونيو","يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر");
+        var t = new Date();
+        var status = "ص";
+
+        var refresh = "0";
+        var originaloffset = new Date().getTimezoneOffset();
+
+
+        function clock() {
+
+            //check timezone
+            var offset = t.getTimezoneOffset();
+            if(isTimeZoneChanged()){
+                pool = "0";
+            }
+        // Load first time from server...
+            if(pool!="1"){
+                t.setDate(23);
+                t.setMonth(1);
+                t.setFullYear(2023);
+                t.setHours(10);
+                t.setMinutes(1);
+                t.setSeconds(1);
+                pool="1";
+            }
+
+
+            t.setSeconds(t.getSeconds()+1);
+            var date = t.getDate();
+            var month = t.getMonth();
+            var day = t.getDay();
+            var hour = t.getHours();
+            var min = t.getMinutes();
+            var sec = t.getSeconds();
+            var year = t.getFullYear();
+            if (date<=9)  		date='0'+date;
+            if (hour>=12)		status="م";
+            if (hour>12)		hour = hour-12;
+            if (hour==0)		hour = 12;
+            if (hour<=0)		hour = '0'+hour;
+            if (min<=9)			min='0'+min;
+            if (sec<=9)			sec='0'+sec;
+
+            //document.getElementById("dateTime").value = daysArray[t.getDay()] + " " + monthsArray[t.getMonth()] + ", " + date + "   " + t.getYear()+"      "+ hour + ":" + min + ":" + sec + " " + status;
+            document.getElementById("clock").innerHTML = daysArray[day] + " " +date+" "+ monthsArray[month] + "  " + year+"   -   "+ hour + ":" + min + ":" + sec + " " + status;
+            //document.getElementById("clock2").innerHTML = /*"23 \u0641\u0628\u0631\u0627\u064A\u0631 2023 - 10:01:01.692 \u0635"*/;
+            window.setTimeout("clock()", 950);
+        }
+        clock();
+
+        function isTimeZoneChanged()
+        {
+            var copyOriginal = new Date().getTimezoneOffset();
+
+            if(originaloffset != copyOriginal)
+            {
+                originaloffset = new Date().getTimezoneOffset();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    </script>
+</div>
+<div id="wrapper">
+<section class="page-header page-header-xs">
+<div class="container">
+<div class="row">
+<h1>استمارة حجز أرض</h1>
+<h1>&nbsp;-&nbsp;<span>قطع أراضي إسكان متوسط محور الاراضي مرحلة ثالثه</span></h1>
+</div>
+</div>
+</section>
+
+<!-- -->
+<section>
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12">
+<form id="theForm" action="/hdb/reserveL/landDetails?projectId=86&amp;_csrf=bc7a2903-3f09-46d5-9797-2c00b73d7987" method="post" enctype="multipart/form-data"><input type="hidden" name="_csrf" value="bc7a2903-3f09-46d5-9797-2c00b73d7987">
+<div class="card card-default">
+<div class="card-heading card-heading-transparent">
+<h2 class="card-title">بيانات الأرض </h2>
+</div>
+<div class="card-block">
+<fieldset>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<label>المحافظة <span style="color :red">*</span></label>
+
+<select class="form-control" id="governorates" name="unitGovID">
+<option value="0">برجاء الإختيار</option>
+<option value="22">بنى سويف</option>
+<option value="25">اسيوط</option>
+<option value="26">سوهاج</option>
+<option value="27">قنا</option>
+</select>
+</div>
+<div class="col-md-6 col-sm-6">
+<label>المدينة <span style="color :red">*</span></label>
+
+<select id="cities" class="form-control pointer required" name="unitCityID"><option value="0">برجاء الاختيار</option><option value="15">سوهاج الجديدة</option></select>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<label>المنطقة <span style="color :red">*</span></label>
+<select id="regions" class="form-control pointer required" name="unitRegionID"><option value="0">برجاء الاختيار</option></select>
+
+</div>
+<div class="col-md-6 col-sm-6">
+<label>الحى<span style="color :red">*</span></label>
+<select id="districts" class="form-control pointer required" name="unitDistrictID"><option value="0">برجاء الاختيار</option></select>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<label>المجاورة <span style="color :red">*</span></label>
+<select id="subDistricts" class="form-control pointer required" name="unitSubDistrictID"><option value="0">برجاء الاختيار</option></select>
+</div>
+<div class="col-md-6 col-sm-6">
+<label>رقم القطعة<span style="color :red">*</span></label>
+<select id="landNo" class="form-control pointer required" name="landNo"><option value="0">برجاء الاختيار</option></select>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<label id="landSizeLabel" name="landSizeLabel"></label>
+<label id="landSize" name="landSize"></label>
+</div>
+<div class="col-md-6 col-sm-6">
+<label id="excellenceRatioLabel" name="excellenceRatioLabel"></label>
+<label id="excellenceRatio" name="excellenceRatio"></label>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6" align="left">
+<span style="visibility: hidden;">AAA</span>
+<button id="subButton" type="submit" class="btn btn-green btn-primary btn-lg" value="">التالي</button>
+</div>
+<div class="col-md-6">
+<span style="visibility: hidden;">AAA</span>
+<a href="/hdb/reserveL/backToLTwo" title="رجوع للتعديل" method="get" class="btn btn-green btn-primary btn-lg">رجوع للتعديل</a>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+
+<div>
+
+<footer id="footer">
+<div class="copyright">
+<div class="container">
+<ul class="float-right m-0 list-inline mobile-block">
+<li><a href="/hdb/about/#termscond">الشروط والأحكام</a></li>
+<li>•</li>
+<li><a href="/hdb/about/#privacy">الخصوصية</a></li>
+</ul>
+
+<div>© 2020 جميع الحقوق محفوظة لبنك التعمير والإسكان</div>
+
+</div>
+</div>
+</footer>
+
+<a href="#" id="toTop" style="display: inline;"></a>
+
+
+
+
+<script type="text/javascript">
+        var plugin_path ="\/hdb\/static\/assets\/plugins\/";
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous" type="text/javascript"></script>
+
+<script type="text/javascript" src="/hdb/static/assets/js/scripts.min.js">
+
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript"
+            src="/hdb/static/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"/>
+    <script type="text/javascript"
+            src="/hdb/static/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"/>
+    <!--<script type="text/javascript" th:src="@{/static/assets/js/view/demo.revolution_slider.js}" src="/static/assets/js/view/demo.revolution_slider.min.js"></script>-->
+
+    <script>
+        (function (a) {
+            if (typeof define === "function" && define.amd && define.amd.jQuery) {
+                define(["jquery"], a)
+            } else {
+                a(jQuery)
+            }
+        }(function (e) {
+            var a = /\+/g;
+
+            function d(g) {
+                return g
+            }
+
+            function b(g) {
+                return decodeURIComponent(g.replace(a, " "))
+            }
+
+            function f(g) {
+                if (g.indexOf('"') === 0) {
+                    g = g.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, "\\")
+                }
+                try {
+                    return c.json ? JSON.parse(g) : g
+                } catch (h) {
+                }
+            }
+
+            var c = e.cookie = function (p, o, u) {
+                if (o !== undefined) {
+                    u = e.extend({}, c.defaults, u);
+                    if (typeof u.expires === "number") {
+                        var q = u.expires, s = u.expires = new Date();
+                        s.setDate(s.getDate() + q)
+                    }
+                    o = c.json ? JSON.stringify(o) : String(o);
+                    return (document.cookie = [encodeURIComponent(p), "=", c.raw ? o : encodeURIComponent(o), u.expires ? "; expires=" + u.expires.toUTCString() : "", u.path ? "; path=" + u.path : "", u.domain ? "; domain=" + u.domain : "", u.secure ? "; secure" : ""].join(""))
+                }
+                var g = c.raw ? d : b;
+                var r = document.cookie.split("; ");
+                var v = p ? undefined : {};
+                for (var n = 0, k = r.length; n < k; n++) {
+                    var m = r[n].split("=");
+                    var h = g(m.shift());
+                    var j = g(m.join("="));
+                    if (p && p === h) {
+                        v = f(j);
+                        break
+                    }
+                    if (!p) {
+                        v[h] = f(j)
+                    }
+                }
+                return v
+            };
+            c.defaults = {};
+            e.removeCookie = function (h, g) {
+                if (e.cookie(h) !== undefined) {
+                    e.cookie(h, "", e.extend(g, {expires: -1}));
+                    return true
+                }
+                return false
+            }
+        }));
+
+    </script>
+</div>
+<script type="text/javascript" src="/hdb/static/assets/plugins/bootstrap.datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="/hdb/static/assets/js/validator.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // add csrf token to ajax request
+        var csrf_token = $('meta[name="_csrf"]').attr('content');
+        $.ajaxSetup({
+            headers:
+                {'X-CSRF-TOKEN': csrf_token}
+        });
+        var has_Sub_District = false;
+        var has_District = false;
+        var govID = $("#governorates").val();
+        var cityID =null;
+        var regionID =null;
+        var districtID = null;
+        var subDistrictID = null;
+        var landNo = null;
+
+        if (govID > 0) {
+            sendCitiesAjaxRequest();
+        }
+        if (cityID > 0) {
+            sendRegionsAjaxRequest(govID, cityID);
+        }
+        if (regionID > 0) {
+            sendDistrictsAjaxRequest(regionID, cityID, govID);
+        }
+        if (districtID > 0) {
+            sendSubDistrictsAjaxRequest(districtID, regionID, cityID, govID);
+        }
+        if (subDistrictID > 0) {
+            sendLandNoAjaxRequest(subDistrictID, districtID, regionID, cityID, govID);
+        }
+        if (landNo) {
+            sendSizeEXRatioAjaxRequest(landNo, subDistrictID, districtID, regionID, cityID, govID);
+        }
+
+        $("#governorates").change(function () {
+            govChanged = true;
+            sendCitiesAjaxRequest();
+        });
+
+        $("#cities").change(function () {
+            cityChanged = true;
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#regions").empty();
+            $("#regions").append(option);
+
+            $("#districts").empty();
+            $("#districts").append(option);
+            $("#districts").prop('disabled', false);
+
+            $("#subDistricts").empty();
+            $("#subDistricts").append(option);
+            $("#subDistricts").prop('disabled', false);
+
+            $("#landNo").empty();
+            $("#landNo").append(option);
+            $("#landNo").prop('disabled', false);
+
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+
+            var cityID = $("#cities").val();
+            var govID = $("#governorates").val();
+
+            sendRegionsAjaxRequest(govID, cityID);
+        });
+
+        $("#regions").change(function () {
+            regionChanged = true;
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#districts").empty();
+            $("#districts").append(option);
+            $("#districts").prop('disabled', false);
+
+            $("#subDistricts").empty();
+            $("#subDistricts").append(option);
+            $("#subDistricts").prop('disabled', false);
+
+            $("#landNo").empty();
+            $("#landNo").append(option);
+            $("#landNo").prop('disabled', false);
+
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+
+            var cityID = $("#cities").val();
+            var govID = $("#governorates").val();
+            var regionID = $("#regions").val();
+
+            sendDistrictsAjaxRequest(regionID, cityID, govID);
+        });
+
+        $("#districts").change(function () {
+            districtChanged = true;
+            var option = '<option value="0">برجاء الاختيار</option>';
+
+            $("#subDistricts").empty();
+            $("#subDistricts").append(option);
+            $("#subDistricts").prop('disabled', false);
+
+            $("#landNo").empty();
+            $("#landNo").append(option);
+            $("#landNo").prop('disabled', false);
+
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+
+            var cityID = $("#cities").val();
+            var govID = $("#governorates").val();
+            var regionID = $("#regions").val();
+            var districtId = $("#districts").val();
+
+            sendSubDistrictsAjaxRequest(districtId, regionID, cityID, govID);
+        });
+
+        $("#subDistricts").change(function () {
+            subDistrictChanged = true;
+            var option = '<option value="0">برجاء الاختيار</option>';
+
+            $("#landNo").empty();
+            $("#landNo").append(option);
+            $("#landNo").prop('disabled', false);
+
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+
+            var cityID = $("#cities").val();
+            var govID = $("#governorates").val();
+            var regionID = $("#regions").val();
+            var districtId = $("#districts").val();
+            var subDistrictId = $("#subDistricts").val();
+
+            sendLandNoAjaxRequest(subDistrictId, districtId, regionID, cityID, govID);
+        });
+
+        $("#landNo").change(function () {
+            landNoChanged = true;
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+
+            var cityID = $("#cities").val();
+            var govID = $("#governorates").val();
+            var regionID = $("#regions").val();
+            var districtId = $("#districts").val();
+            var subDistrictId = $("#subDistricts").val();
+            var landNo = $("#landNo").val();
+
+            sendSizeEXRatioAjaxRequest(landNo, subDistrictId, districtId, regionID, cityID, govID);
+        });
+
+    });
+
+    var govChanged = false;
+    var cityChanged = false;
+    var regionChanged = false;
+    var districtChanged = false;
+    var subDistrictChanged = false;
+    var landNoChanged = false;
+
+    //------cities
+    function sendCitiesAjaxRequest() {
+        var govID = $("#governorates").val();
+        var option = '<option value="0">برجاء الاختيار</option>';
+        $("#regions").empty();
+        $("#regions").append(option);
+
+        $("#districts").empty();
+        $("#districts").append(option);
+        $("#districts").prop('disabled', false);
+
+        $("#subDistricts").empty();
+        $("#subDistricts").append(option);
+        $("#subDistricts").prop('disabled', false);
+
+        $("#landNo").empty();
+        $("#landNo").append(option);
+        $("#landNo").prop('disabled', false);
+
+        var cityID = $("#cities").val();
+        var govID = $("#governorates").val();
+
+        $('#landSize').text('');
+        $('#excellenceRatio').text('');
+        $('#landSizeLabel').text('');
+        $('#excellenceRatioLabel').text('');
+
+        if (govID == 0) {
+            $("#cities").empty();
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#cities").append(option);
+
+            $("#regions").empty();
+            $("#regions").append(option);
+
+            $("#districts").empty();
+            $("#districts").append(option);
+            $("#districts").prop('disabled', false);
+
+            $("#subDistricts").empty();
+            $("#subDistricts").append(option);
+            $("#subDistricts").prop('disabled', false);
+
+            $("#landNo").empty();
+            $("#landNo").append(option);
+            $("#landNo").prop('disabled', false);
+
+            $("#unitTypes").empty();
+            $("#unitTypes").append(option);
+
+            $("#buildings").empty();
+            $("#buildings").append(option);
+
+            $("#buildingUnits").empty();
+            $("#buildingUnits").append(option);
+
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+
+        } else {
+            var cityID =null;
+            var link ="\/hdb\/reserveL\/landCities?govID=";
+            $.get(link + govID, function (data) {
+                $("#cities").empty();
+                var option = '<option value="0">برجاء الاختيار</option>';
+                $("#cities").append(option);
+                data.forEach(function (item, i) {
+                    if (item.id == cityID && !govChanged) {
+                        var option = "<option value=" + item.id + " selected='selected' >" + item.name + "</option>";
+                        sendRegionsAjaxRequest(govID, cityID);
+                    } else {
+                        var option = "<option value=" + item.id + ">" + item.name + "</option>";
+                    }
+                    $("#cities").append(option);
+                });
+            });
+        }
+    };
+
+    //------regions
+    function sendRegionsAjaxRequest(govID, cityID) {
+        //var cityID = $("#cities").val();
+        var cityID = cityID;
+        //alert("1 ::"+cityID);
+        if (cityID == null) {
+            cityID = $("#cities").val();
+        }
+        //alert(cityID);
+        if (cityID == 0) {
+            $("#regions").empty();
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#regions").append(option);
+        } else {
+            var regID =null;
+            var link ="\/hdb\/reserveL\/landRegions?cityID=";
+            $.get(link + cityID + "&govID=" + govID, function (data) {
+                $("#regions").empty();
+                var option = '<option value="0">برجاء الاختيار</option>';
+                $("#regions").append(option);
+                data.forEach(function (item, i) {
+                    if (item.id == regID && !govChanged && !cityChanged) {
+                        var option = "<option value=" + item.id + "  selected='selected' >" + item.name + "</option>";
+                        sendDistrictsAjaxRequest(regID, cityID, govID);
+                    } else {
+                        var option = "<option value=" + item.id + ">" + item.name + "</option>";
+                    }
+                    $("#regions").append(option);
+
+                });
+            });
+        }
+    };
+
+    //------districts
+    function sendDistrictsAjaxRequest(regionID, cityID, govID) {
+        if (regionID == null) {
+            regionID = $("#regions").val();
+        }
+        //alert(regionID);
+        if (regionID == 0) {
+            $("#districts").empty();
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#districts").append(option);
+        } else {
+            var disID =null;
+            var link ="\/hdb\/reserveL\/landDistricts?regionID=";
+            $.get(link + regionID + "&govID=" + govID + "&cityID=" + cityID, function (data) {
+                $("#districts").empty();
+                var option = '<option value="0">برجاء الاختيار</option>';
+                $("#districts").append(option);
+                //alert(data.length);
+                if (data.length > 0) {
+                    has_District = true;
+                    $("#districts").prop('disabled', false);
+                    $("#subDistricts").prop('disabled', false);
+                    data.forEach(function (item, i) {
+                        if (item.id == disID && !govChanged && !cityChanged && !regionChanged) {
+                            var option = "<option value=" + item.id + "  selected='selected' >" + item.name + "</option>";
+                            sendSubDistrictsAjaxRequest(disID, regionID, cityID, govID);
+                        } else {
+                            var option = "<option value=" + item.id + ">" + item.name + "</option>";
+                        }
+                        $("#districts").append(option);
+                    });
+                } else {
+                    has_District = false;
+                    has_Sub_District = false;
+                    $("#districts").prop('disabled', true);
+                    $("#subDistricts").prop('disabled', true);
+                    sendLandNoAjaxRequest(0, 0, regionID, cityID, govID);
+                }
+
+            });
+        }
+    };
+
+    //------subDistricts
+    function sendSubDistrictsAjaxRequest(districtId, regionID, cityID, govID) {
+        var districtID = districtId;
+        if (districtID == null) {
+            districtID = $("#districtID").val();
+        }
+        //alert(regionID);
+        if (districtID == 0 && has_District) {
+            $("#subDistricts").empty();
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#subDistricts").append(option);
+        } else {
+            var subDisID =null;
+            var link ="\/hdb\/reserveL\/landSubDistricts?districtId=";
+            $.get(link + districtID + "&regionID=" + regionID + "&govID=" + govID + "&cityID=" + cityID, function (data) {
+                $("#subDistricts").empty();
+                var option = '<option value="0">برجاء الاختيار</option>';
+                $("#subDistricts").append(option);
+                //alert(data.length);
+                if (data.length > 0) {
+                    has_Sub_District = true;
+                    $("#subDistricts").prop('disabled', false);
+                    $("#landNo").prop('disabled', false);
+                    data.forEach(function (item, i) {
+                        if (item.unitGovernorateID == govID && item.unitCityID == cityID && item.regionID == regionID && item.districtID == districtID) {
+                            if (item.id == subDisID && !govChanged && !cityChanged && !regionChanged && !districtChanged) {
+                                var option = "<option value=" + item.id + "  selected='selected' >" + item.name + "</option>";
+                                sendLandNoAjaxRequest(subDisID, districtID, regionID, cityID, govID);
+                            } else {
+                                var option = "<option value=" + item.id + ">" + item.name + "</option>";
+                            }
+                            $("#subDistricts").append(option);
+                        }
+                    });
+                } else {
+                    $("#subDistricts").prop('disabled', 'true');
+                    console.log('test');
+                    has_Sub_District = false;
+                    sendLandNoAjaxRequest(0, districtId, regionID, cityID, govID);
+                }
+
+            });
+        }
+    };
+
+    //------landNo
+    function sendLandNoAjaxRequest(subDistrictID, districtId, regionID, cityID, govID) {
+        var has_Sub_District = has_Sub_District;
+        var subDistrictID = subDistrictID;
+        if (subDistrictID == null) {
+            subDistrictID = $("#subDistrictID").val();
+        }
+        console.log(has_Sub_District);
+        if (!has_Sub_District && has_Sub_District != null) {
+            $("#subDistricts").prop('disabled', 'true');
+        }
+        if (subDistrictID == 0 && has_Sub_District) {
+            $("#landNo").empty();
+            var option = '<option value="0">برجاء الاختيار</option>';
+            $("#landNo").append(option);
+        } else {
+            var landNo =null;
+            var link ="\/hdb\/reserveL\/landNo?subDistrictID=";
+            $.get(link + subDistrictID + "&districtId=" + districtId + "&regionID=" + regionID + "&govID=" + govID + "&cityID=" + cityID, function (data) {
+                $("#landNo").empty();
+                var option = '<option value="0">برجاء الاختيار</option>';
+                $("#landNo").append(option);
+                //alert(data.length);
+                if (data.length > 0) {
+                    data.forEach(function (item, i) {
+                        if (item.unitGovernorateID == govID && item.unitCityID == cityID && item.regionID == regionID && item.districtID == districtId && item.subDistrictID == subDistrictID){
+                        if (item.name == landNo && !govChanged && !cityChanged && !regionChanged && !districtChanged && !subDistrictChanged) {
+                            var option = "<option value=" + item.name + "  selected='selected' >" + item.name + "</option>";
+
+                        } else {
+                            var option = "<option value=" + item.name + ">" + item.name + "</option>";
+                        }
+                        $("#landNo").append(option);
+                        }
+                    });
+                } else {
+                    $("#landNo").prop('disabled', true);
+                }
+            });
+        }
+    };
+
+    //------Size & Excellence Ratio
+    function sendSizeEXRatioAjaxRequest(landNo, subDistrictID, districtId, regionID, cityID, govID) {
+        var landNo = landNo;
+        if (landNo == null) {
+            landNo = $("#landNo").val();
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+        }
+        if (landNo == 0) {
+            $('#landSize').text('');
+            $('#excellenceRatio').text('');
+            $('#landSizeLabel').text('');
+            $('#excellenceRatioLabel').text('');
+        } else {
+            var disID =null;
+            var link ="\/hdb\/reserveL\/sizeExRatio?landNo=";
+            $.get(link + landNo + "&subDistrictID=" + subDistrictID + "&districtId=" + districtId + "&regionID=" + regionID + "&govID=" + govID + "&cityID=" + cityID, function (data) {
+                var newText = data.land_Size;
+                var newText2 = data.excellence_Ratio;
+                if (newText == null) {
+                    $('#landSize').text('غير متوفر');
+                }
+                if (newText2 == null) {
+                    $('#excellenceRatio').text('غير متوفر');
+                }
+                $('#landSizeLabel').text('المساحة');
+                $('#excellenceRatioLabel').text('نسبة التميز');
+                $('#landSize').text(newText);
+                $('#excellenceRatio').text(newText2);
+            });
+        }
+    };
+</script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;79de6e606d669201&quot;,&quot;token&quot;:&quot;6219df5cc03044ec8cebeacc16d8bff0&quot;,&quot;version&quot;:&quot;2023.2.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/hdb/static/assets/plugins/bootstrap/js/bootstrap.min.js"></script></body></html>
